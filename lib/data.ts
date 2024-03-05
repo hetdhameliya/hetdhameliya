@@ -1,10 +1,8 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import luxchono from "@/public/luxchono.png";
+import bt from "@/public/bt.png";
 
 export const links = [
   {
@@ -50,30 +48,22 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "2023 - 2024",
   },
-
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Luxchono Watch",
     description:
-      "I worked as a full-stack developer on this. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Node js"],
-    imageUrl: corpcommentImg,
+      "I worked as a full-stack developer on this. Users can buy the watch with online payment",
+    tags: ["React js", "MongoDB", "Tailwind", "Node js", "Type script"],
+    imageUrl: luxchono,
   },
   {
-    title: "rmtDev",
+    title: "bank transaction",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Material Ui", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Primereact", "Tailwind",],
-    imageUrl: wordanalyticsImg,
+      "created a bank transaction management web application using node js and next js",
+    tags: ["Next.js", "Node js", "Material Ui", "Tailwind", "MongoDB"],
+    imageUrl: bt,
   },
 ] as const;
 
