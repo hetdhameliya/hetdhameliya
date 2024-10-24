@@ -30,12 +30,13 @@ export default function About() {
         learn new technologies.
       </p>
       <p>
-        <span> </span>Enthusiastic student pursuing in  <span className="font-medium">Bachelor of Computer Application</span>  with a strong interest in web
-        Development. and also i am react js developer at <span className="underline">implies solution</span>{" "}
+        <span> </span>Motivated and detail-oriented React.js developer with 1.6 years of experience in building responsive, dynamic web applications. Skilled in JavaScript, react js, next js, and modern front-end development practices. Seeking to leverage my expertise in delivering high-quality user interfaces and scalable solutions to contribute to innovative projects.<span className="font-medium"> Graduated with First Class with Distinction in Bachelor of Computer Application</span>  with a strong interest in web
+        Development. and also i am react js developer at <span className="underline">Deskcode Solution</span>{" "}
        Collaborated with team members to created many projcet in react js techology for company and
         client and learned many new things and developed strong communication
         start intershipped in implies soluation and now I am working as an employ
       </p>
     </motion.section>
+
   );
 }

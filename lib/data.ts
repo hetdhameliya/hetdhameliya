@@ -36,18 +36,26 @@ export const experiencesData = [
     title: "Bachelor of Computer Application",
     location: "Surat",
     description:
-      "Currently I am studying BCA degree in Veer Narmad South Gujarat University",
+      "Graduated with First Class with Distinction from Veer Narmad South Gujarat University, acquiring a solid foundation in computer science and applications",
     icon: React.createElement(LuGraduationCap),
     date: "2021 - 2024",
   },
   {
-    title: "Front-End Developer (9 month)",
+    title: "React js Developer (1 Year)",
     location: "Surat",
     description:
-      "I am react js developer at implies solution Collaborated with team members to created many projcet in react js techology for company and client ",
+      "Began as an intern and transitioned to a full-time React.js developer at Implies Solutions. Worked on various React.js and Next.js projects, delivering high-quality, responsive web applications for clients and the company. Gained strong technical skills in modern web development while enhancing communication and collaboration within the team.",
     icon: React.createElement(CgWorkAlt),
-    date: "2023 - 2024",
+    date: "May 2023 - May 2024",
   },
+  {
+    title: "React Developer (6 month )",
+    location: "Surat",
+    description:
+      "Currently working as a developer at Deskcode Solution, focusing on both web and mobile application development. I build cross-platform mobile apps using React Native, Firebase, and Capacitor.js, and also develop responsive web applications with React.js. In addition to coding",
+    icon: React.createElement(CgWorkAlt),
+    date: "May 2024 - Present",
+  }
 ] as const;
 
 export const projectsData = [
@@ -75,6 +83,8 @@ export const skillsData = [
   "React",
   "Next.js",
   "Node.js",
+  "Firebase",
+  "Capacitor js",
   "Git",
   "Tailwind",
   "MongoDB",
