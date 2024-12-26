@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Het Dhameliya | Personal Portfolio",
-  description: "Het Dhameliya is a React js developer with 1.6 years of experience.",
+  description: "Het Dhameliya is a React js developer with 2 years of experience.",
 };
 
 export default function RootLayout({

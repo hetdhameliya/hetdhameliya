@@ -38,18 +38,18 @@ export const experiencesData = [
     description:
       "Graduated with First Class with Distinction from Veer Narmad South Gujarat University, acquiring a solid foundation in computer science and applications",
     icon: React.createElement(LuGraduationCap),
-    date: "2021 - 2024",
+    date: "2020 - 2023",
   },
   {
-    title: "React js Developer (1 Year)",
+    title: "React js Developer (1.5 Year)",
     location: "Surat",
     description:
       "Began as an intern and transitioned to a full-time React.js developer at Implies Solutions. Worked on various React.js and Next.js projects, delivering high-quality, responsive web applications for clients and the company. Gained strong technical skills in modern web development while enhancing communication and collaboration within the team.",
     icon: React.createElement(CgWorkAlt),
-    date: "May 2023 - May 2024",
+    date: "Jan 2023 - May 2024",
   },
   {
-    title: "React Developer (6 month )",
+    title: "React Developer (8 month )",
     location: "Surat",
     description:
       "Currently working as a developer at Deskcode Solution, focusing on both web and mobile application development. I build cross-platform mobile apps using React Native, Firebase, and Capacitor.js, and also develop responsive web applications with React.js. In addition to coding",
