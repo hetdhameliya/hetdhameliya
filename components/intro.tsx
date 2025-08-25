@@ -31,31 +31,20 @@ export default function Intro() {
               type: "tween",
               duration: 0.2,
             }}
+
           >
             <Image
               src={my}
               alt="Ricardo portrait"
-              width="300"
-              height="300"
+              width="320"
+              height="320"
               quality="99"
               priority={true}
               className="h-[10rem] w-[10rem] rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
 
-          <motion.span
-            className="absolute bottom-0 right-0 text-4xl"
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{
-              type: "spring",
-              stiffness: 125,
-              delay: 0.1,
-              duration: 0.7,
-            }}
-          >
-            👋
-          </motion.span>
+
         </div>
       </div>
 
@@ -66,7 +55,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm Het Dhameliya</span> I'm a{" "}
         <span className="font-bold">React js developer</span> with{" "}
-        <span className="font-bold">2 years</span> of experience. I enjoy
+        <span className="font-bold">2.5 years</span> of experience. I enjoy
         building <span className="italic">sites & apps</span>. My focus is{" "}
         <span className="underline">React js</span>.
       </motion.h1>
@@ -102,7 +91,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="HTTPS://WWW.LINKEDIN.COM/IN/HET-DHAMELIYA-B40769234 "
+          href="https://www.linkedin.com/in/hetdhameliya"
           target="_blank"
         >
           <BsLinkedin />

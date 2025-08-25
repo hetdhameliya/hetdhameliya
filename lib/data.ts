@@ -34,6 +34,7 @@ export const links = [
 export const experiencesData = [
   {
     title: "Bachelor of Computer Application",
+    from: "Veer Narmad South Gujarat University",
     location: "Surat",
     description:
       "Graduated with First Class with Distinction from Veer Narmad South Gujarat University, acquiring a solid foundation in computer science and applications",
@@ -43,19 +44,21 @@ export const experiencesData = [
   {
     title: "React js Developer (1.5 Year)",
     location: "Surat",
+    from: "Implies Solutions",
     description:
       "Began as an intern and transitioned to a full-time React.js developer at Implies Solutions. Worked on various React.js and Next.js projects, delivering high-quality, responsive web applications for clients and the company. Gained strong technical skills in modern web development while enhancing communication and collaboration within the team.",
     icon: React.createElement(CgWorkAlt),
     date: "Jan 2023 - May 2024",
   },
   {
-    title: "React Developer (8 month )",
+    title: "React Developer (Present)",
     location: "Surat",
+    from: "Deskcode Solution",
     description:
       "Currently working as a developer at Deskcode Solution, focusing on both web and mobile application development. I build cross-platform mobile apps using React Native, Firebase, and Capacitor.js, and also develop responsive web applications with React.js. In addition to coding",
     icon: React.createElement(CgWorkAlt),
     date: "May 2024 - Present",
-  }
+  },
 ] as const;
 
 export const projectsData = [
@@ -76,23 +79,18 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
   "JavaScript",
-  "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
+  "React Native",
+  "TypeScript",
   "Firebase",
   "Capacitor js",
   "Git",
-  "Tailwind",
-  "MongoDB",
+  "CSS",
   "Redux",
-  "Express",
   "Docker",
-  "DevOps",
+  "Iconic",
+  "Tailwind",
   "Material Ui",
-  "Primereact",
-  "React Suite",
 ] as const;
